@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sip
+Bundle-SymbolicName: org.bigbluebutton.sip; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.bigbluebutton.sip.Activator
+Bundle-Vendor: BigBlueButton
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.forms
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.ui.forms
